@@ -1,7 +1,7 @@
 import Head from "next/head";
 import HeaderOne from "@/layout/headers/HeaderOne";
-import HeroArea from "./HeroArea";
-import Brand from "@/components/common/Brand";
+
+
 import Charity from "./Charity";
 import About from "./About";
 import OurCause from "./OurCause";
@@ -52,8 +52,6 @@ const HomeThree = () => {
 
       <HeaderOne style_1={false} style_2={true} />
       <main>
-        <HeroArea />
-        <Brand style={true} />
         <Charity />
         <About />
         <OurCause />
