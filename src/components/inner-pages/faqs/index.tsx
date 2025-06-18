@@ -3,7 +3,7 @@ import Breadcrumb from "@/components/common/Breadcrumb";
 import FooterOne from "@/layout/footers/FooterOne";
 import HeaderOne from "@/layout/headers/HeaderOne";
 import FAQ from "@/components/homes/home-one/FAQ";
-import ChooseArea from "@/components/homes/home-one/ChooseArea";
+
 
 const Faqs = () => {
   return (
