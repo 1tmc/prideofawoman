@@ -3,7 +3,7 @@ import event_data from "@/data/EventData";
 import Image from "next/image";
 import Link from "next/link";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
-import f1Img from "@/assets/img/gallery/f1.png";
+
 
 
 const EventArea = () => {

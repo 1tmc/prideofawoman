@@ -2,7 +2,7 @@ import Breadcrumb from "@/components/common/Breadcrumb"
 import FooterOne from "@/layout/footers/FooterOne"
 import HeaderOne from "@/layout/headers/HeaderOne"
 import EventArea from "./EventArea"
-import BecomeVolunteer from "@/components/homes/home-one/BecomeVolunteer"
+
 
 
 const Event = () => {
