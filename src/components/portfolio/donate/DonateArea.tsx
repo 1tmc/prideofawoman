@@ -1,4 +1,4 @@
-import CauseDetailsSidebar from "@/components/causes/causes-details/CauseDetailsSidebar"
+
 import CauseDetailsForm from "@/components/forms/CauseDetailsForm"
 
 const DonateArea = () => {
@@ -9,9 +9,7 @@ const DonateArea = () => {
                <div className="col-lg-8">
                   <CauseDetailsForm />
                </div>
-               <div className="col-lg-4">
-                  <CauseDetailsSidebar />
-               </div>
+              
             </div>
          </div>
       </div>
