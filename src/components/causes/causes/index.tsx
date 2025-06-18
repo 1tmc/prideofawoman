@@ -2,7 +2,7 @@ import Breadcrumb from "@/components/common/Breadcrumb"
 import FooterOne from "@/layout/footers/FooterOne"
 import HeaderOne from "@/layout/headers/HeaderOne"
 import CauseArea from "./CauseArea"
-import CTA from  "../../homes/home-one/CtaArea"
+
 
 
 const Causes = () => {
