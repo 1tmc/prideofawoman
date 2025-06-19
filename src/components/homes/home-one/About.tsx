@@ -1,10 +1,12 @@
 import Image from "next/image"
-import counter_data from "@/data/counterData"
-import Count from "@/components/common/Count"
+
 
 import aboutImg_1 from "@/assets/img/about/about1.jpg"
 import aboutImg_2 from "@/assets/img/about/about2.jpg"
 import aboutImg_3 from "@/assets/img/about/about3.jpg"
+import aboutImg_4 from "@/assets/img/about/accra.jpg"
+import aboutImg_5 from "@/assets/img/about/nkoranza.jpg"
+
 
 const About = () => {
    return (
@@ -48,7 +50,37 @@ const About = () => {
                   </div>
                </div>
             </div>
+{/* branches */}
+            <div className="row mt-80">
+               <div className="col-lg-12">
+                  <div className="section-title mb-40 text-center">
+                     <h2>Our <span>Branches</span></h2>
+                  </div>
+               </div>
 
+               <div className="col-md-6 mb-30 text-center">
+                  <Image
+                     src={aboutImg_4}
+                     alt="Accra Branch"
+                     className="img-fluid rounded"
+                     style={{ borderRadius: "20px", height: "auto", maxWidth: "100%" }}
+                  />
+                  <h5 className="mt-3">Accra Branch</h5>
+                  <p className="text-sm">Serving women across Greater Accra with spiritual empowerment and leadership growth programs.</p>
+               </div>
+
+               <div className="col-md-6 mb-30 text-center">
+                  <Image
+                     src={aboutImg_5}
+                     alt="Nkoranza Branch"
+                     className="img-fluid rounded"
+                     style={{ borderRadius: "20px", height: "auto", maxWidth: "100%" }}
+                  />
+                  <h5 className="mt-3">Nkoranza Branch</h5>
+                  <p className="text-sm">A thriving hub of women’s fellowship and community transformation in the Bono East region.</p>
+               </div>
+            </div>
+            {/* ✅ Branches Section End */}
             <div className="row mt-80">
                <div className="col-lg-12">
                   <div className="section-title mb-40 text-center">

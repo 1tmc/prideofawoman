@@ -63,8 +63,6 @@ const HomeOne = () => {
     `}
   </script>
 </Head>
-
-
          <HeaderOne style_1={false} style_2={false} />
          <main>
          <HeroImage />

@@ -9,6 +9,7 @@ const CtaArea = () => {
                    <div className="section-title text-center text-white">
                        <h2>CHRIST IMPACT LIVES <span>FOUNDATION</span></h2>
                        <p>Breaking Barriers; Transforming Lives; Building Legacies!!</p>
+                       <p>-We Partner With Men-</p>
                    </div>
                </div>
            </div>

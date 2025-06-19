@@ -21,7 +21,8 @@ const CauseDetailsForm = () => {
 
             <div className="col-lg-12">
                <h5>PayPal</h5>
-               <p><strong>Mail:</strong> abigailkyeremehlove@gmail.com</p>
+               <p><strong>Username:</strong>The Pride of a Woman Outreach</p>
+               <p><strong>Mail:</strong>Prideofawoman2016@gmail.com</p>
                {/* <p><strong>Account Name:</strong> Christ Impact Lives Foundation</p> */}
             </div>
 

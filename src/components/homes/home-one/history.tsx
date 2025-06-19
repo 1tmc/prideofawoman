@@ -22,7 +22,7 @@ const History = () => {
                      <p>The Pride of A Woman Christian Network is a dynamic, faith-based community committed to empowering women through spiritual development, mentorship, and practical skills training. Guided by strong Christian values, we provide a nurturing environment where women are encouraged to connect, grow, and transform their lives.
                      Our mission is to improve the social and economic well-being of women and children through counseling, educational workshops, outreach programs, and holistic empowerment initiatives. By cultivating faith, wisdom, and community support, we equip women to thrive—spiritually, emotionally, and economically.
                      Together, we’re building a generation of women who walk boldly in purpose, uplift others, and lead with faith.</p>
-                     <Link className="cr-btn ml-5 mt-25" href="/abo7ut">About Us</Link>
+                     <Link className="cr-btn ml-5 mt-25" href="/about">About Us</Link>
                   </div>
                </div>
                <div className="col-lg-6">

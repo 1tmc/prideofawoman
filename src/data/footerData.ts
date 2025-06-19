@@ -35,7 +35,7 @@ interface DataType {
      widget_title: "Contact Info",
      footer_link: [
        { link: "#", link_title: "Phone: 0554407327" },
-       { link: "#", link_title: "Email: info@theprideofawoman.org" },
+       { link: "#", link_title: "Email: prideofawoman2016@gmail.com" },
      ],
    },
  ];

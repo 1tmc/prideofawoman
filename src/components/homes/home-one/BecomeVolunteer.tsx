@@ -1,6 +1,7 @@
 import Image from "next/image";
 import volunteerImg_1 from "@/assets/img/valunteer/valunteer-left.png";
 import volunteerImg_2 from "@/assets/img/valunteer/valunteer-bg.png";
+import BecomeVolunteerForm from "@/components/forms/BecomeVolunteerForm"
 
 const BecomeVolunteer = () => {
   return (
@@ -15,26 +16,17 @@ const BecomeVolunteer = () => {
           <div className="col-lg-6">
             <div className="volunteer-content form-style-one text-white">
               <div className="section-title mb-45">
-                <span className="section-title__subtitle mb-10">Our Volunteer</span>
+                <span className="section-title__subtitle mb-10">Our Lovely Members</span>
                 <h3>
-                  Become a <span>Member</span> or Partner
+                  Become a <span> Member</span> Now
                 </h3>
               </div>
               <div className="col-xl-9 mb-10">
                 <p>
-                  Become a part of something greater, with a defined cause to bring positive change to this world by filling out and submitting this Google Form.
+                  Become a part of something greater, with a defined cause to bring positive change to this world by filling out and submitting this Mail.
                 </p>
               </div>
-              <div className="col-xl-9 mb-10">
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdXFVwKJz2yI3pDt-ZGMWbSsPuIaZXTfiAlr3gTbW8Q3iyZGw/viewform?usp=header"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-style-one"
-                >
-                  CLICK HERE TO FILL THE FORM
-                </a>
-              </div>
+              <BecomeVolunteerForm />
             </div>
           </div>
         </div>

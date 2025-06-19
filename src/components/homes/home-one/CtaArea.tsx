@@ -12,6 +12,7 @@ const CtaArea = () => {
             <div className="section-title text-center text-white">
               <h2>Our <span>Motto</span></h2>
               <p>Raising Women of Purpose, Power and Prayer.</p>
+              <p>-We Partner With Men-</p>
               {/* Uncomment if donation functionality is available */}
               {/* <Link className="cr-btn mt-30" href="/support">Support the Vision</Link> */}
             </div>
