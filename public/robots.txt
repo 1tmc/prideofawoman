@@ -1,9 +1,4 @@
-# *
 User-agent: *
 Allow: /
 
-# Host
-Host: https://www.theprideofawomancn.com
-
-# Sitemaps
-Sitemap: https://www.theprideofawomancn.com/sitemap.xml
+Sitemap: https://www.theprideofawoman.org/sitemap.xml
