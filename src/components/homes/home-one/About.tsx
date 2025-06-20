@@ -6,6 +6,9 @@ import aboutImg_2 from "@/assets/img/about/about2.jpg"
 import aboutImg_3 from "@/assets/img/about/about3.jpg"
 import aboutImg_4 from "@/assets/img/about/accra.jpg"
 import aboutImg_5 from "@/assets/img/about/nkoranza.jpg"
+import aboutImg_6 from "@/assets/img/about/kenya.jpg"
+import aboutImg_7 from "@/assets/img/about/nextgen.jpg"
+import aboutImg_8 from "@/assets/img/about/award.jpg"
 
 
 const About = () => {
@@ -50,6 +53,40 @@ const About = () => {
                   </div>
                </div>
             </div>
+            {/* Awards */}
+            <div className="row align-items-center">
+            <div className="col-lg-6  mb-80">
+                  <div className="about-content-part rmt-65">
+                     <div className="section-title mb-40">
+                        <span className="section-title__subtitle mb-10">Awards</span>
+                        <h2>Community Leadership and <span> Peace making Award</span></h2>
+                     </div>
+                     <p>KING OF KINGS WORLD FOUNDATION AND THE
+                     ORDAINED CHRISTIAN MINISTERS AND BISHOPS NETWORK thought of it right to award us with this honorable award.</p>
+                  </div>
+               </div>
+               <div className="col-lg-6 mb-80">
+               <div className="about-image-part">
+                     <div className="row">
+                        <div>
+                           <div >
+                              <Image src={aboutImg_8} alt="About" 
+                              style={{
+                                 "maxWidth": 500, 
+                                 "height":400, 
+                                 "borderRadius":30,
+                                 "marginLeft": 20
+                              }}
+                              />
+                           </div>
+                           
+                        </div>
+                        
+                     </div>
+                  </div>
+               </div>
+            </div>
+
 {/* branches */}
             <div className="row mt-80">
                <div className="col-lg-12">
@@ -62,8 +99,8 @@ const About = () => {
                   <Image
                      src={aboutImg_4}
                      alt="Accra Branch"
-                     className="img-fluid rounded"
-                     style={{ borderRadius: "20px", height: "auto", maxWidth: "100%" }}
+                     className="rounded-full"
+                     style={{ borderRadius: "50px", height: "auto", maxWidth: "90%" }}
                   />
                   <h5 className="mt-3">Accra Branch</h5>
                   <p className="text-sm">Serving women across Greater Accra with spiritual empowerment and leadership growth programs.</p>
@@ -73,12 +110,26 @@ const About = () => {
                   <Image
                      src={aboutImg_5}
                      alt="Nkoranza Branch"
-                     className="img-fluid rounded"
-                     style={{ borderRadius: "20px", height: "auto", maxWidth: "100%" }}
+                     className="rounded-full"
+                     style={{ borderRadius: "50px", height: "auto", maxWidth: "100%" }}
                   />
-                  <h5 className="mt-3">Nkoranza Branch</h5>
-                  <p className="text-sm">A thriving hub of women’s fellowship and community transformation in the Bono East region.</p>
+                  <h5 className="mt-3 text-lg font-semibold">Nkoranza Branch</h5>
+                  <p className="text-sm">
+                     A thriving hub of women’s fellowship and community transformation in the Bono East region.
+                  </p>
                </div>
+
+               <div className="w-full md:w-1/2 mb-60 flex flex-col items-center text-center mx-auto">
+                  <Image
+                     src={aboutImg_6}
+                     alt="Kenya Branch"
+                     className="rounded-full"
+                     style={{ borderRadius: "50px", height: "auto", maxWidth: "50%" }}
+                  />
+                  <h5 className="mt-3">Kenya Branch</h5>
+                  <p className="text-sm">First Inauguration of an international branch coming soon</p>
+                </div>
+
             </div>
             {/* ✅ Branches Section End */}
             <div className="row mt-80">
@@ -117,6 +168,17 @@ const About = () => {
                   <div className="image">
                      <Image src={aboutImg_1} alt="About" />
                   </div>
+               </div>
+               {/* ------------------------- next gen*/}
+               <div className="w-full md:w-1/2 mb-60 flex flex-col items-center text-center mx-auto">
+                  <Image
+                     src={aboutImg_7}
+                     alt="Kenya Branch"
+                     className="rounded-full"
+                     style={{ borderRadius: "50px", height: "auto", maxWidth: "50%" }}
+                  />
+                  <h5 className="mt-3">Empowering the next generation through the eyes of the Lord.</h5>
+                  {/* <p className="text-sm">First Inauguration of an international branch coming soon</p> */}
                </div>
             </div>
 

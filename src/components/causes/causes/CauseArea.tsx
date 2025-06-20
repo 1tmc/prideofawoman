@@ -7,6 +7,9 @@ import causeThumb_3 from "@/assets/img/causes/cause3.jpg";
 import causeThumb_4 from "@/assets/img/causes/cause5.jpg";
 import causeThumb_5 from "@/assets/img/causes/cause4.jpg";
 import causeThumb_6 from "@/assets/img/causes/cause6.jpg";
+import causeThumb_7 from "@/assets/img/causes/aged.jpg";
+
+
 
 const projectData = [
   {
@@ -36,6 +39,19 @@ const projectData = [
   },
   {
     id: 3,
+    title: "Wrapping the Aged in Cloth",
+    points: [
+      "Donation of gently used/new fabrics",
+      "Promoting dignity and comfort for the elderly",
+      "Creating cozy home essentials for aged women",
+      "Supporting aged women in the community",
+    ],
+    description:
+      "A fabric donation drive aimed at wrapping our aged women in warmth. Through community love and care, we provide comfort to those who need it most—bringing hope to aged women across Ghana.",
+    img: causeThumb_7,
+  },
+  {
+    id: 4,
     title: "Junior High Schools Seminar",
     points: [
       "Educational seminars for students",
@@ -47,7 +63,7 @@ const projectData = [
     img: causeThumb_3,
   },
   {
-    id: 4,
+    id: 5,
     title: "Foundation to Empower Women and Children",
     points: [
       "Launch of foundation",
@@ -59,7 +75,7 @@ const projectData = [
     img: causeThumb_5,
   },
   {
-    id: 5,
+    id: 6,
     title: "Annual Donation 2023 – Pantang Hospital",
     points: [
       "Donations to Women's Ward",
@@ -71,7 +87,7 @@ const projectData = [
     img: causeThumb_4,
   },
   {
-    id: 6,
+    id: 7,
     title: "Annual Donation at Nsawam Prisons",
     points: [
       "Spiritual support and prayers",
