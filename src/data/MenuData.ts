@@ -29,9 +29,14 @@ const menu_data: MenuItem[] = [
     },
     {
         id: 3,
-        has_dropdown: false,
+        has_dropdown: true,
         title: "Projects",
-        link: "/causes"
+        link: "/causes",
+        sub_menus: [
+            { link: "/causes", title: "Our Projects" },
+            { link: "/publications", title: "Publications" }
+
+        ]
     },
     {
         id: 4,

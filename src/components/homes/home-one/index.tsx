@@ -18,7 +18,7 @@ const HomeOne = () => {
          <Head>
   <title>The Pride of A Woman Christian Network | Empowering Women Through Christ</title>
   <meta name="description" content="Welcome to the official site of The Pride of A Woman Christian Network — a faith-based community dedicated to empowering women through spiritual growth, mentorship, and skills development." />
-  <meta name="keywords" content="Pride of a Woman, The Pride of a woman christian network, foundation, Christian Network, women's ministry, women empowerment, mentorship, faith-based community, spiritual development" />
+  <meta name="keywords" content="Pride of a Woman, The Pride of a woman christian network, the pride of a woman, the pride of a woman ghana, the pride of a woman accra,foundation, Christian Network, women's ministry, women empowerment, mentorship, faith-based community, spiritual development" />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="The Pride of A Woman Christian Network" />
   <link rel="canonical" href="https://theprideofawomancn.com/" />

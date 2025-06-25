@@ -16,7 +16,8 @@ interface DataType {
      footer_link: [
        { link: "/", link_title: "Home" },
        { link: "/about", link_title: "About Us" },
-       { link: "/contact", link_title: "Contact" }
+       { link: "/publications", link_title: "Publications" },
+       { link: "/contact", link_title: "Contact" },
      ],
    },
    {

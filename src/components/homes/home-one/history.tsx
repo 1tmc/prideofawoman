@@ -17,7 +17,7 @@ const History = () => {
                   <div className="about-content-part rmt-65">
                      <div className="section-title mb-60">
                         <span className="section-title__subtitle mb-10">Our History</span>
-                        <h2>The Story behind <span>CILF</span></h2>
+                        <h2>The Story behind <span>The Pride of A Woman</span></h2>
                      </div>
                      <p>The Pride of A Woman Christian Network is a dynamic, faith-based community committed to empowering women through spiritual development, mentorship, and practical skills training. Guided by strong Christian values, we provide a nurturing environment where women are encouraged to connect, grow, and transform their lives.
                      Our mission is to improve the social and economic well-being of women and children through counseling, educational workshops, outreach programs, and holistic empowerment initiatives. By cultivating faith, wisdom, and community support, we equip women to thrive—spiritually, emotionally, and economically.
